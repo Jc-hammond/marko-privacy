@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marko Privacy Policy</title>
+    <meta
+      name="description"
+      content="Privacy policy for Marko, a Markdown viewer and editor for macOS."
+    >
+    <style>
+      :root {
+        color-scheme: light dark;
+        --page: #f7f7f4;
+        --ink: #1b1b19;
+        --muted: #5c5c57;
+        --rule: #d9d8d0;
+        --link: #005f8f;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --page: #171715;
+          --ink: #f1f0ea;
+          --muted: #b8b7ae;
+          --rule: #3a3934;
+          --link: #7cc7ee;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--page);
+        color: var(--ink);
+        font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+        font-size: 18px;
+        line-height: 1.6;
+      }
+
+      main {
+        width: min(100% - 32px, 760px);
+        margin: 0 auto;
+        padding: 56px 0 72px;
+      }
+
+      header {
+        border-bottom: 1px solid var(--rule);
+        margin-bottom: 32px;
+        padding-bottom: 24px;
+      }
+
+      h1,
+      h2 {
+        line-height: 1.15;
+        letter-spacing: 0;
+      }
+
+      h1 {
+        font-size: 42px;
+        margin: 0 0 8px;
+      }
+
+      h2 {
+        font-size: 24px;
+        margin: 36px 0 12px;
+      }
+
+      p,
+      ul {
+        margin: 0 0 18px;
+      }
+
+      li + li {
+        margin-top: 10px;
+      }
+
+      .effective-date {
+        color: var(--muted);
+        font-style: italic;
+      }
+
+      a {
+        color: var(--link);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Marko Privacy Policy</h1>
+        <p class="effective-date">Effective date: June 11, 2026</p>
+      </header>
+
+      <p>Marko is a Markdown viewer and editor for macOS, made by Connor Hammond.</p>
+
+      <h2>The Short Version</h2>
+      <p>
+        Marko collects nothing. It has no network features, no analytics, no
+        accounts, and no third-party services. Your documents never leave your Mac.
+      </p>
+
+      <h2>What Marko Does With Your Data</h2>
+      <ul>
+        <li>
+          <strong>Your documents</strong> are read and written only on your Mac,
+          only for files and folders you explicitly open, and only when you
+          explicitly save or export. Marko runs in the macOS App Sandbox, which
+          technically prevents it from accessing anything you haven't opened.
+        </li>
+        <li>
+          <strong>Remembered locations</strong> (your last-opened folder and
+          pinned files) are stored as macOS security-scoped bookmarks in Marko's
+          local preferences on your Mac. They are never transmitted anywhere.
+        </li>
+        <li>
+          <strong>Rendering</strong> happens entirely on-device using libraries
+          bundled inside the app. Marko makes no network requests of any kind.
+        </li>
+      </ul>
+
+      <h2>What Marko Collects</h2>
+      <p>
+        Nothing. No personal information, no usage analytics, no crash reports,
+        no identifiers, no telemetry.
+      </p>
+
+      <h2>Third Parties</h2>
+      <p>
+        Marko embeds no third-party SDKs and shares data with no one, because it
+        collects no data.
+      </p>
+
+      <h2>Changes</h2>
+      <p>
+        If a future version of Marko ever changes any of the above, this policy
+        will be updated before that version ships, and the change will be noted
+        in the release notes.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Questions about this policy: open an issue on the Marko repository or
+        contact Connor Hammond.
+      </p>
+    </main>
+  </body>
+</html>
