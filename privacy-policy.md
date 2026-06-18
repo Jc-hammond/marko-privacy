@@ -39,5 +39,5 @@ the release notes.
 
 ## Contact
 
-Questions about this policy: open an issue on the Marko repository or
-contact Connor Hammond.
+Questions about this policy: contact Connor Hammond at
+hammondconnor@icloud.com.
